@@ -1,16 +1,4 @@
-### 1/ Setup
-	https://symfony.com/doc/3.4/setup.html
-
-# Check security vulnerability
-	php bin/console security:check
-
-# Check version
-	https://stackoverflow.com/questions/16846189/how-to-know-which-version-of-symfony-i-have
-	Thông tin đầy đủ: php bin/console about
-	Thông tin version: php bin/console --version
------------------------------------------------------------------------------------
-
-### 2/ Create your First Page in Symfony
+## 2/ Create your First Page in Symfony
 https://symfony.com/doc/3.4/page_creation.html
 
 # Checking out the Project Structure
@@ -49,19 +37,3 @@ class AppKernel extends Kernel
 + Eventually (Cuối cùng), you'll download and add more third-party bundles to your app in order to get even more tools. Imagine a bundle that helps you create paginated lists
 
 + You can control how your bundles behave via the `app/config/config.yml` file
------------------------------------------------------------------------------------
-
-## 6/ Configuring Symfony (and Environments)
-https://symfony.com/doc/3.4/configuration.html
-
-+ Every Symfony application consists of a collection of bundles that add useful tools (services) to your project. 
-
-```YAML
-app/config/config.yml
-imports:
-    - { resource: parameters.yml }
-    - { resource: security.yml }
-    - { resource: services.yml }
-    - { resource: easy_admin.yml }
-    - { resource: "@MccpSalesBundle/Resources/config/config.yml"}
-```
