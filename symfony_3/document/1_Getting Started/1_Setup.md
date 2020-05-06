@@ -1,5 +1,6 @@
 ## 1/ Setup
 	https://symfony.com/doc/3.4/setup.html
+	https://symfonycasts.com/screencast/symfony3
 
 # Check security vulnerability
 	php bin/console security:check
